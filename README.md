@@ -19,7 +19,7 @@ Open Source Data Anonymization and Synthetic Data Orchestration
   <a href='https://makeapullrequest.com'>
     <img alt='PRs Welcome' src='https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields'/>
   </a>
-  <img src="https://img.shields.io/github/license/lightdash/lightdash" />
+  <img src="https://img.shields.io/github/license/axc-mon/neosync" />
   <!-- <a href="https://codecov.io/gh/nucleuscloud/neosync">
     <img alt="CodeCov" src="https://codecov.io/gh/nucleuscloud/neosync/graph/badge.svg?token=A35QDLRU04"/>
     </a> -->
