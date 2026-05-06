@@ -4,41 +4,6 @@
 Open Source Data Anonymization and Synthetic Data Orchestration
 <p>
 
-<div align='center'>
- | <a href="https://www.neosync.dev">Website</a>
- | <a href="https://docs.neosync.dev">Docs</a>
- | <a href="https://discord.com/invite/MFAMgnp4HF">Discord</a>
- | <a href="https://www.neosync.dev/blog">Blog</a>
- | <a href="https://docs.neosync.dev/changelog">Changelog</a>
- | <a href="https://neosync.productlane.com/roadmap">Roadmap</a>
-</div>
-
- <br>
-
-<div align="center">
-  <a href='https://makeapullrequest.com'>
-    <img alt='PRs Welcome' src='https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields'/>
-  </a>
-  <img src="https://img.shields.io/github/license/axc-mon/neosync" />
-  <!-- <a href="https://codecov.io/gh/nucleuscloud/neosync">
-    <img alt="CodeCov" src="https://codecov.io/gh/nucleuscloud/neosync/graph/badge.svg?token=A35QDLRU04"/>
-    </a> -->
-  <a href="https://github.com/nucleuscloud/neosync/actions/workflows/go.yml/">
-    <img alt="Go Tests" src="https://github.com/nucleuscloud/neosync/actions/workflows/go.yml/badge.svg"/>
-  </a>
-  <a href="https://x.com/neosynccloud">
-    <img alt="Follow X" src="https://img.shields.io/twitter/follow/neosynccloud?label=Follow"/>
-  </a>
-  <a href="https://artifacthub.io/packages/search?repo=neosync">
-    <img alt="ArtifactHub Neosync" src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/neosync" />
-  </a>
-  <a href="https://gurubase.io/g/neosync">
-    <img alt="Gurubase" src="https://img.shields.io/badge/Gurubase-Ask%20Neosync%20Guru-006BFF" />
-  </a>
-</div>
-
-> **⚠️ Disclaimer:** **Neosync has been acquired by [Grow Therapy](https://www.growtherapy.com). As a result, this repository is no longer actively maintained. Thank you to all of our OSS and Cloud supporters over the years.**
-
 ## Introduction
 
 [Neosync](https://www.neosync.dev) is an open-source, developer-first way to anonymize PII, generate synthetic data and sync environments for better testing, debugging and developer experience.
