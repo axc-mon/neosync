@@ -95,7 +95,7 @@ SELECT
     r.ROUTINE_NAME AS function_name,
     r.ROUTINE_SCHEMA AS schema_name,
     r.DTD_IDENTIFIER AS return_data_type,
-    r.ROUTINE_DEFINITION AS definition,
+    IFNULL(r.ROUTINE_DEFINITION, '') AS definition,
     CASE WHEN IS_DETERMINISTIC = 'YES' THEN 1 ELSE 0 END as is_deterministic,
     IFNULL(GROUP_CONCAT(CONCAT_WS(' ', p.PARAMETER_NAME, IFNULL(p.DTD_IDENTIFIER, p.DATA_TYPE))
 		ORDER BY
