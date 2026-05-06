@@ -4,6 +4,10 @@
 Open Source Data Anonymization and Synthetic Data Orchestration
 <p>
 
+> Fork of [`nucleuscloud/neosync`](https://github.com/nucleuscloud/neosync).
+> Upstream was archived on 2025-08-30 (Grow Therapy acquisition) and is no
+> longer maintained. This fork carries forward local fixes — see commit log.
+
 ## Introduction
 
 [Neosync](https://www.neosync.dev) is an open-source, developer-first way to anonymize PII, generate synthetic data and sync environments for better testing, debugging and developer experience.
@@ -55,22 +59,6 @@ The production compose pre-seeds with connections and jobs to get you started! S
 ## Kubernetes, Auth Mode and more
 
 For more in-depth details on environment variables, Kubernetes deployments, and a production-ready guide, check out the [Deploy Neosync](https://docs.neosync.dev/deploy/introduction) section of our Docs.
-
-## Resources
-
-Some resources to help you along the way:
-
-- [Docs](https://docs.neosync.dev) for comprehensive documentation and guides
-- [Discord](https://discord.com/invite/MFAMgnp4HF) for discussion with the community and Neosync team
-- [X](https://x.com/neosynccloud) for the latest updates
-
-## Contributing
-
-We love contributions big and small. Here are just a few ways that you can contribute to Neosync.
-
-- Join our [Discord](https://discord.com/invite/MFAMgnp4HF) channel and ask us any questions there
-- Open a PR (see our instructions on [developing with Neosync locally](https://docs.neosync.dev/guides/neosync-local-dev))
-- Submit a [feature request](https://github.com/nucleuscloud/neosync/issues/new?assignees=&labels=enhancement%2C+feature&template=feature_request.md) or [bug report](https://github.com/nucleuscloud/neosync/issues/new?assignees=&labels=bug&template=bug_report.md)
 
 ## Licensing
 
