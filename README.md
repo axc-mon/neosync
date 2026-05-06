@@ -10,7 +10,7 @@ Open Source Data Anonymization and Synthetic Data Orchestration
 
 ## Introduction
 
-[Neosync](https://www.neosync.dev) is an open-source, developer-first way to anonymize PII, generate synthetic data and sync environments for better testing, debugging and developer experience.
+Neosync is an open-source, developer-first way to anonymize PII, generate synthetic data and sync environments for better testing, debugging and developer experience.
 
 Companies use Neosync to:
 
@@ -58,7 +58,7 @@ The production compose pre-seeds with connections and jobs to get you started! S
 
 ## Kubernetes, Auth Mode and more
 
-For more in-depth details on environment variables, Kubernetes deployments, and a production-ready guide, check out the [Deploy Neosync](https://docs.neosync.dev/deploy/introduction) section of our Docs.
+For more in-depth details on environment variables, Kubernetes deployments, and a production-ready guide, see the upstream Deploy Neosync docs (archived but still available in [`docs/`](./docs)).
 
 ## Licensing
 
