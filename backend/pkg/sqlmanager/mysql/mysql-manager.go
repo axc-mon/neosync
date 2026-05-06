@@ -1211,6 +1211,14 @@ func (m *MysqlManager) getFunctionsBySchemas(
 
 	output := make([]*sqlmanager_shared.DataType, 0, len(rows))
 	for _, row := range rows {
+		// Skip functions whose body is unavailable (typical for readonly users
+		// without SELECT on mysql.proc — ROUTINE_DEFINITION returns NULL,
+		// IFNULL'd to empty string in the query). Building a CREATE FUNCTION
+		// statement without a body would produce malformed SQL ("near '' at
+		// line 3") on the destination.
+		if strings.TrimSpace(row.Definition) == "" {
+			continue
+		}
 		functionSignatureStr, err := convertUInt8ToString(row.FunctionSignature)
 		if err != nil {
 			return nil, err
